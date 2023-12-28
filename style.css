@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(218, 131, 73);
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5%;
+}
+.log_in {
+  background-color: aliceblue;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  padding: 50px;
+}
+.btn {
+}
+.s_word {
+  font-size: xx-small;
+}
