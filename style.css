@@ -9,14 +9,22 @@ body {
   display: flex;
   flex-direction: row;
   border-radius: 5%;
+  border: 3px rgb(235, 228, 223) solid;
 }
 .log_in {
   background-color: aliceblue;
-  border-top-right-radius: 5%;
-  border-bottom-right-radius: 5%;
+  border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
   padding: 50px;
 }
 .btn {
+}
+.colored {
+  color: brown;
+}
+.remember {
+  display: flex;
+  justify-content: space-between;
 }
 .s_word {
   font-size: xx-small;

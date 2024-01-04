@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>log in project</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="card">
@@ -20,24 +21,37 @@
         </div>
         <div class="in">
           <p>Login to your Account</p>
-          <p>See what is going on with your business</p>
+          <p class="s_word">See what is going on with your business</p>
           <button class="btn">Continue with Google</button>
           <p>--------- or Sign in with Email ---------</p>
           <div class="form_group">
-            <label for="Email">Email</label>
+            <label class="s_word" for="Email">Email</label>
             <input type="email" placeholder="mail@abc.com" name="email" id="" />
           </div>
           <div class="form_group">
-            <label for="">Password</label>
+            <label class="s_word" for="password">Password</label>
             <input
               type="password"
               placeholder="*************"
               name="password"
               id=""
+              required
             />
+          </div>
+          <div class="remember">
+            <p>
+              <input type="checkbox" name="remember" />
+              <label for="remember">Remember Me</label>
+            </p>
+            <p class="colored">Forget Password</p>
           </div>
           <div class="login_button">
             <button class="btn cl">Login</button>
+          </div>
+          <div class="registered">
+            <p>
+              Not Registered Yet? <span class="colored">Create an account</span>
+            </p>
           </div>
         </div>
       </div>
