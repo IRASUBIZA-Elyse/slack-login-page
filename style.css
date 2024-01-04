@@ -1,31 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: rgb(218, 131, 73);
-  display: flex;
-  justify-content: center;
-  width: 100vw;
+  background-color: #e1c2a8;
+  font-family: Nunito Sans;
+  line-height: 1.4;
+  width: 100%;
+  height: 1225px;
 }
 
 #card {
   display: flex;
   flex-direction: row;
-  border-radius: 5%;
+  justify-content: space-between;
+  border-radius: 34px;
   border: 3px rgb(235, 228, 223) solid;
+  max-width: 80%;
+  max-height: 90%;
+  margin: 100px auto;
 }
+
+#card div {
+  flex: 1;
+}
+.logo img {
+  height: 100vh;
+  object-fit: fill;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.theme {
+  position: relative;
+  bottom: 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .log_in {
-  background-color: aliceblue;
-  border-top-right-radius: 3%;
-  border-bottom-right-radius: 3%;
-  padding: 50px;
+  background-color: #ffffff;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  padding: 30px;
+  padding-top: 100px;
 }
-.btn {
+.logo {
+  color: #73114b;
+  height: 100vh;
 }
+
 .colored {
-  color: brown;
+  color: #73114b;
+}
+#form-head {
+  gap: 12px;
+}
+
+.google-sign-btn {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  gap: 7px;
+}
+.google-sign-btn button {
+  font-weight: 600;
+  line-height: 10px;
+  letter-spacing: 0em;
+  border: none;
+}
+
+#email-login {
+  border: none;
+}
+
+.log-text {
+  color: #525252;
+  font-size: 30px;
+  line-height: 49.1px;
+}
+#title {
+  font-weight: 700;
 }
 .remember {
   display: flex;
   justify-content: space-between;
 }
 .s_word {
-  font-size: xx-small;
+  font-size: 12px;
+  line-height: 21.6px;
+  font-weight: 300;
+}
+.gp-3 {
+  gap: 3;
+}
+.gray {
+  color: #828282;
+  background: #ffffff5b;
+}
+
+form input {
+  width: 100%;
+  padding: 13px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  gap: 3px;
+}
+.registered {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  width: 420px;
+  padding: 13px 10px 12px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  width: 420px;
+  height: 50px;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  width: 420px;
+  height: 50px;
+}
+
+.google-logo {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
+
+span {
+  font-size: 16px;
+  color: #828282;
+  font-weight: 600;
+}
+.login_button {
+  width: 420px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 24.55px;
+  padding: 13px 10px 12px 10px;
+  gap: 13px;
+  /* background: #73114b; */
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 420px;
+  height: 50px;
 }
