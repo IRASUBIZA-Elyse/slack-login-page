@@ -36,7 +36,7 @@ body {
 
 .theme {
   position: relative;
-  bottom: 10%;
+  bottom: 15%;
   text-align: center;
   padding-top: 10px;
 }
@@ -162,8 +162,8 @@ span {
   line-height: 24.55px;
   padding: 13px 10px 12px 10px;
   gap: 13px;
-  /* background: #73114b; */
-  color: rgb(0, 0, 0);
+  background: #73114b;
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
 }
 
